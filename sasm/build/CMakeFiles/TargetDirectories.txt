@@ -1,0 +1,3 @@
+/home/gabriel-c/VM_STACK/sasm/build/CMakeFiles/sasm.dir
+/home/gabriel-c/VM_STACK/sasm/build/CMakeFiles/edit_cache.dir
+/home/gabriel-c/VM_STACK/sasm/build/CMakeFiles/rebuild_cache.dir

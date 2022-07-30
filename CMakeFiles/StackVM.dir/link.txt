@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/StackVM.dir/vm_stack/main.cpp.o CMakeFiles/StackVM.dir/vm_stack/vm_stack.cpp.o -o StackVM 
