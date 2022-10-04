@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/sasm.dir/sasm.cpp.o CMakeFiles/sasm.dir/lexer.cpp.o -o sasm 
