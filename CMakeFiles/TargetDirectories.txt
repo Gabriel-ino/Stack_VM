@@ -1,3 +1,0 @@
-/home/gabriel-c/VM_STACK/CMakeFiles/StackVM.dir
-/home/gabriel-c/VM_STACK/CMakeFiles/edit_cache.dir
-/home/gabriel-c/VM_STACK/CMakeFiles/rebuild_cache.dir

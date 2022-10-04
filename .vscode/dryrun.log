@@ -1,0 +1,26 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/gabriel-c/VM_STACK'
+/snap/cmake/1132/bin/cmake -S/home/gabriel-c/VM_STACK -B/home/gabriel-c/VM_STACK --check-build-system CMakeFiles/Makefile.cmake 0
+/snap/cmake/1132/bin/cmake -E cmake_progress_start /home/gabriel-c/VM_STACK/CMakeFiles /home/gabriel-c/VM_STACK//CMakeFiles/progress.marks
+make -s -f CMakeFiles/Makefile2 all
+ 
+make[1]: Entering directory '/home/gabriel-c/VM_STACK'
+make -s -f CMakeFiles/StackVM.dir/build.make CMakeFiles/StackVM.dir/depend
+ 
+make[2]: Entering directory '/home/gabriel-c/VM_STACK'
+cd /home/gabriel-c/VM_STACK && /snap/cmake/1132/bin/cmake -E cmake_depends "Unix Makefiles" /home/gabriel-c/VM_STACK /home/gabriel-c/VM_STACK /home/gabriel-c/VM_STACK /home/gabriel-c/VM_STACK /home/gabriel-c/VM_STACK/CMakeFiles/StackVM.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/gabriel-c/VM_STACK'
+make -s -f CMakeFiles/StackVM.dir/build.make CMakeFiles/StackVM.dir/build
+make[2]: Entering directory '/home/gabriel-c/VM_STACK'
+/snap/cmake/1132/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/gabriel-c/VM_STACK/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/StackVM.dir/vm_stack/main.cpp.o"
+/usr/bin/c++    -MD -MT CMakeFiles/StackVM.dir/vm_stack/main.cpp.o -MF CMakeFiles/StackVM.dir/vm_stack/main.cpp.o.d -o CMakeFiles/StackVM.dir/vm_stack/main.cpp.o -c /home/gabriel-c/VM_STACK/vm_stack/main.cpp
+/snap/cmake/1132/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/gabriel-c/VM_STACK/CMakeFiles --progress-num=2 "Building CXX object CMakeFiles/StackVM.dir/vm_stack/vm_stack.cpp.o"
+/usr/bin/c++    -MD -MT CMakeFiles/StackVM.dir/vm_stack/vm_stack.cpp.o -MF CMakeFiles/StackVM.dir/vm_stack/vm_stack.cpp.o.d -o CMakeFiles/StackVM.dir/vm_stack/vm_stack.cpp.o -c /home/gabriel-c/VM_STACK/vm_stack/vm_stack.cpp
+/snap/cmake/1132/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/gabriel-c/VM_STACK/CMakeFiles --progress-num=3 "Linking CXX executable StackVM"
+/snap/cmake/1132/bin/cmake -E cmake_link_script CMakeFiles/StackVM.dir/link.txt --verbose=
+make[2]: Leaving directory '/home/gabriel-c/VM_STACK'
+/snap/cmake/1132/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/gabriel-c/VM_STACK/CMakeFiles --progress-num=1,2,3 "Built target StackVM"
+make[1]: Leaving directory '/home/gabriel-c/VM_STACK'
+/snap/cmake/1132/bin/cmake -E cmake_progress_start /home/gabriel-c/VM_STACK/CMakeFiles 0
+make: Leaving directory '/home/gabriel-c/VM_STACK'
+ 
